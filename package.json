@@ -1,0 +1,14 @@
+{
+  "name": "coaching-tail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"npx tailwindcss -i ./public/css/styles.css -o ./public/css/tailwind.css -w" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
